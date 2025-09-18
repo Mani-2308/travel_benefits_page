@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.travel-benefits-bg-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    height: 100vh;
+}
+
+.travel-benefits-page-heading {
+    color: #183b56;
+    font-family: "Roboto";
+}
+
+.travel-benefits-page-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    text-align: center;
+    font-size: 12px;
+}
+
+.travel-benefits-page-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.travel-benefits-page-facilities-card {
+    background-color: #ffffff;
+    text-align: center;
+    max-width: 250px;
+    margin: 20px;
+}
+
+.travel-page-facilities-images {
+    height: 60px;
+    width: 60px;
+}
+
+.travel-page-facility-name {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.travel-page-facility-description {
+    color: #5a7184;
+    font-family: "Roboto";
+}
